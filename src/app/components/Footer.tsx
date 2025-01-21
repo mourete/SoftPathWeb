@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div>
             <HiMail className="mx-auto text-3xl" />
             <h3 className="mt-2 font-bold">Email</h3>
-            <p className="mt-1">contacto@marksoft.com.mx</p>
+            <p className="mt-1">contacto@softpath.com.mx</p>
           </div>
           <div>
             <HiClock className="mx-auto text-3xl" />
@@ -31,13 +31,13 @@ const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto flex flex-col items-center text-sm text-gray-600">
           <div className="flex space-x-6 mb-4">
             <a
-              href="https://www.facebook.com/MarksoftOficial"
+              href="https://www.facebook.com/softpathoficial"
               className="hover:text-blue-700"
             >
               <FaFacebookF size={20} />
             </a>
             <a
-              href="https://www.instagram.com/marksoft_mx/"
+              href="https://www.instagram.com/softpathoficial/"
               className="hover:text-blue-700"
             >
               <FaInstagram size={20} />
