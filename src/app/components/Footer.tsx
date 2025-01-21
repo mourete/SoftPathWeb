@@ -25,10 +25,8 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Línea divisoria */}
       <div className="border-t border-gray-300" />
 
-      {/* Sección inferior con las redes sociales y copyright */}
       <div className="py-6">
         <div className="max-w-7xl mx-auto flex flex-col items-center text-sm text-gray-600">
           <div className="flex space-x-6 mb-4">

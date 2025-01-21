@@ -49,11 +49,11 @@ const solutions = [
   const Solutions: React.FC = () => {
     return (
       <section className="py-16 bg-gray-50">
-        <h2 className="text-3xl font-bold text-center text-blue-800">Soluciones integrales</h2>
-        <p className="mt-4 text-center text-gray-600">
-          Desde la identificación hasta la mitigación, nuestro enfoque estratégico te guiará hacia decisiones informadas.
+        <h2 className="text-6xl font-bold text-center text-blue-900">Soluciones integrales</h2>
+        <p className="mt-4 text-center text-black">
+        Desde la identificación hasta la mitigación, nuestro enfoque estratégico te guiará hacia decisiones informadas y un camino seguro hacia el éxito.
         </p>
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {solutions.map((solution, index) => (
             <div key={index} className="p-6 bg-white rounded-lg shadow-md text-center">
               <div className="text-3xl mb-4">{solution.icon}</div>

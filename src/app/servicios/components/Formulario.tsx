@@ -1,8 +1,8 @@
 const ServiceForm: React.FC = () => {
     return (
       <section className="py-16 bg-gray-100">
-        <h2 className="text-3xl font-bold text-center text-blue-600">Solicita una sesión diagnóstico aquí</h2>
-        <p className="mt-4 text-center text-gray-600">
+        <h2 className="text-5xl font-bold text-center text-blue-500">Solicita una sesión diagnóstico aquí</h2>
+        <p className="mt-4 text-center text-black">
           Deja tus datos en el siguiente formulario y obtén una sesión diagnóstico con nuestros especialistas.
         </p>
         <form className="mt-8 max-w-3xl mx-auto space-y-6">
