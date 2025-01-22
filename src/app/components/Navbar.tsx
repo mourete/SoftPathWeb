@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
         </li>
       </ul>
       <a
-        href="https://api.whatsapp.com/send/?phone=528182109701&text=Hola%2C%20me%20gustaría%20más%20información."
+        href="https://api.whatsapp.com/send/?phone=528132691277&text=Hola%2C%20me%20gustaría%20más%20información."
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center px-4 py-2 text-white bg-green-600 rounded hover:bg-green-700"

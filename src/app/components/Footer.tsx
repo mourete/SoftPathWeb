@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaGoogle, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { HiLocationMarker, HiMail, HiClock } from "react-icons/hi";
 
 const Footer: React.FC = () => {
@@ -43,10 +43,16 @@ const Footer: React.FC = () => {
               <FaInstagram size={20} />
             </a>
             <a
-              href="https://api.whatsapp.com/send/?phone=528182109701&text&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=528132691277&text&type=phone_number&app_absent=0"
               className="hover:text-blue-700"
             >
               <FaWhatsapp size={20} />
+            </a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&to=contacto@softpath.com.mx"
+              className="hover:text-blue-700"
+            >
+              <FaGoogle size={20} />
             </a>
           </div>
           <p className="text-center">Copyright © 2025 SoftPath</p>

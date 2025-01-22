@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           riesgos legales.
         </p>
         <a
-          href="https://api.whatsapp.com/send/?phone=528182109701&text=Hola%2C%20me%20gustaría%20más%20información."
+          href="https://api.whatsapp.com/send/?phone=528132691277&text=Hola%2C%20me%20gustaría%20más%20información."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center mt-6 px-4 py-2 text-base font-medium text-white bg-green-600 rounded hover:bg-green-700"
