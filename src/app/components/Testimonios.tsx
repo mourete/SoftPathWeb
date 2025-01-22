@@ -1,15 +1,15 @@
 const testimonials = [
     {
-      name: "Jim Doe",
+      name: "Jose",
       feedback:
         "Desde que optamos por el equipo de Softpath, nuestra seguridad y tranquilidad se han elevado a un nivel completamente nuevo. Su enfoque proactivo en la gestión de riesgos ha sido clave para anticipar y superar desafíos. ¡Una inversión invaluable para cualquier empresa!",
       image: "/testimonio1.png",
     },
     {
-      name: "Stefanie Willson",
+      name: "Ricardo",
       feedback:
         "No podemos dejar de elogiar el servicio de resguardo de información de Softpath. Gracias a su enfoque integral, nuestras operaciones no solo son más seguras sino también más eficientes. Una elección estratégica para cualquier empresa que valore la seguridad de la información.",
-      image: "/testimonio2.png",
+      image: "/testimonio2.jpg",
     },
   ];
   
