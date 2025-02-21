@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FaWhatsapp } from "react-icons/fa";
+import Image from 'next/image';
 
 const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -10,7 +11,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
       <div className="relative">
-        <img src="/logo.png" alt="SoftPath" className="max-w-md" />
+        <Image src="/logo.png" alt="SoftPath" width={200} height={200} className="max-w-md" />
       </div>
       <ul className="flex space-x-4 text-sm">
         <li>

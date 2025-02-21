@@ -1,4 +1,5 @@
 import { FaWhatsapp, FaExclamation, FaCheck } from "react-icons/fa";
+import Image from 'next/image';
 
 const WhyChooseUs: React.FC = () => {
   return (
@@ -23,9 +24,12 @@ const WhyChooseUs: React.FC = () => {
         </div>
 
         <div className="relative">
-          <img
+          <Image
             src="/imagen2_inicio.png"
             className="shadow-md mb-4"
+            alt="Por qué elegirnos"
+            width={500}
+            height={500}
           />
           <div className="grid grid-cols-2">
             <div className="bg-teal-500 text-blue-900 text-center py-6 flex flex-col items-center">

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const testimonials = [
     {
       name: "Jose",
@@ -25,14 +27,17 @@ const testimonials = [
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
             {testimonials.map((testimonial) => (
               <div key={testimonial.name} className="p-6 bg-gray-50 rounded-lg shadow-md">
-                <img
+                <Image
                   src={testimonial.image}
                   alt={testimonial.name}
                   className="w-16 h-16 rounded-full mx-auto"
+                  width={500}
+                  height={500}
                 />
                 <blockquote className="mt-4 text-gray-600 italic">
-                  "{testimonial.feedback}"
+                  &quot;{testimonial.feedback}&quot;
                 </blockquote>
+
                 <p className="mt-4 text-blue-700 font-semibold text-center">{testimonial.name}</p>
               </div>
             ))}

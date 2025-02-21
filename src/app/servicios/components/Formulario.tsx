@@ -1,6 +1,6 @@
 import { FaFacebookF, FaGoogle, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-const ServiceForm: React.FC = () => {
+const Formulario: React.FC = () => {
     return (
       <section className="py-16 bg-gray-100">
           <h2 className="text-5xl font-bold text-center text-blue-500">
@@ -53,5 +53,5 @@ const ServiceForm: React.FC = () => {
     );
   };
   
-  export default ServiceForm;
+  export default Formulario;
   

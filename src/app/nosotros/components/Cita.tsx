@@ -10,7 +10,7 @@ const Quote: React.FC = () => {
 
       <div className="relative z-10 flex items-center justify-center h-full bg-black bg-opacity-50">
         <h1 className="text-6xl font-bold text-white italic">
-          "Nuestra experiencia habla por nosotros"
+        &quot;Nuestra experiencia habla por nosotros&quot;
         </h1>
       </div>
     </section>

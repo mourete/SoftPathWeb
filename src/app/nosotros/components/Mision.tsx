@@ -1,11 +1,15 @@
+import Image from 'next/image';
+
 const MissionVision: React.FC = () => {
     return (
       <section className="py-16 max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div className="relative">
-          <img
+          <Image
             src="/imagen5_nosotros.png"
             alt="Misión"
             className="rounded-lg shadow-md"
+            width={700}
+            height={700}
           />
           <div className="absolute bottom-0 right-0 bg-lime-500 text-white text-center p-4 rounded shadow-lg">
           <p className="text-2xl font-bold">+10</p>

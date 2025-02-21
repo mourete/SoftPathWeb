@@ -1,5 +1,6 @@
 import Footer from "@/app/components/Footer";
 import Formulario from "@/app/servicios/components/Formulario"
+import Image from 'next/image';
 
 const DetallesServicio: React.FC = () => {
   return (
@@ -19,11 +20,12 @@ const DetallesServicio: React.FC = () => {
         </div>
 
         <div>
-          <img
+          <Image
             src="/imagen_detalles.png"
             alt="Detalles del servicio"
             className="w-full h-full object-cover shadow-md"
-            style={{ height: "400px", width: "200" }}
+            width={400}
+            height={200}
           />
         </div>
       </div>
