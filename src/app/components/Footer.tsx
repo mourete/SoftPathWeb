@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               <FaGoogle size={20} />
             </a>
           </div>
-          <p className="text-center">Copyright © 2025 SoftPath</p>
+          <p className="text-center">Copyright © 2025 Softpath</p>
         </div>
       </div>
     </footer>

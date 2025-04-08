@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
       <div className="relative">
-        <Image src="/logo.png" alt="SoftPath" width={200} height={200} className="max-w-md" />
+        <Image src="/logo.png" alt="Softpath" width={200} height={200} className="max-w-md" />
       </div>
       <ul className="flex space-x-4 text-sm">
         <li>
